@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c253bafe-59ce-4f03-9f67-1beee6150452" name="变更" comment="" />
+    <list default="true" id="c253bafe-59ce-4f03-9f67-1beee6150452" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +93,7 @@
       <workItem from="1670131132541" duration="1733000" />
       <workItem from="1670136733845" duration="53261000" />
       <workItem from="1670227010533" duration="216000" />
+      <workItem from="1670227904672" duration="1099000" />
     </task>
     <servers />
   </component>
