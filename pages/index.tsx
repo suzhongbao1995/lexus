@@ -15,7 +15,9 @@ function Home() {
     <Layout>
       <section className={styles.areaOne}>
         <div className={styles.areaOneDescription}>
-          <Image alt="" className="max-sm:mx-auto" src={areaLeft} />
+          <div className={styles.areaLeftImg}>
+            <Image alt="" className="max-sm:mx-auto" src={areaLeft} />
+          </div>
           <div className="max-lg:flex-1">
             <p className={styles.introduceParagraph}>
               近日，LEXUS雷克萨斯正式宣布2022全球设计大奖最高奖得主，Poh Yun
@@ -73,7 +75,9 @@ function Home() {
             截至2013年5月，此项服务已在北京、上海、广州、深圳、天津、沈阳、南京、成都、重庆、宁波、长沙、苏州、福州、珠海、东莞、长春、武汉、杭州、无锡、厦门、中山、青岛、太原、石家庄、泉州、台州、昆明、佛山28个城市开通。全国其他各大城市也将陆续开通此项服务。
           </p>
         </div>
-        <Image alt="" className="flex-1" src={area2} />
+        <div className={styles.imageContainer}>
+          <Image alt="" src={area2} />
+        </div>
       </section>
       <section className={styles.area}>
         <Image alt="" className="max-lg:hidden lg:block" src={area3} />
