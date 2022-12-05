@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 console.log('process.env.NODE_ENV===', process.env.NODE_ENV);
-const __PROD__ = process.env.NODE_ENV === 'production';
+const _PROD_ = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
@@ -10,9 +10,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: __PROD__ ? '/' : '',
+  assetPrefix: _PROD_ ? '/' : '',
   publicRuntimeConfig: {
-    linkPrefix: __PROD__ ? '/' : '',
+    linkPrefix: _PROD_ ? '/' : '',
   },
 };
 
