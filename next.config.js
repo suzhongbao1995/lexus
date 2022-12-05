@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 
-console.log('process.env.NODE_ENV===', process.env.NODE_ENV);
 const _PROD_ = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
@@ -10,11 +9,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  baseUrl: _PROD_ ? '/lexus' : '',
-  // assetPrefix: _PROD_ ? './' : '',
-  // publicRuntimeConfig: {
-  //   linkPrefix: _PROD_ ? './' : '',
-  // },
+  assetPrefix: './',
+  publicRuntimeConfig: {
+    linkPrefix: './',
+    staticFolder: './public',
+  },
 };
 
 module.exports = nextConfig;
