@@ -1,0 +1,140 @@
+/* 头部背景图 */
+.swiper {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 1166px;
+    background: url("../public/images/swiper.png") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoLine {
+    width: 1px;
+    height: 24px;
+    margin: 0 8px;
+
+}
+
+.nav {
+    color: white;
+    font-size: 18px;
+    padding-right: 230px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* nav */
+.navContainer {
+    width: 1720px;
+    height: 99px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.navList {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    background-image: url("../public/images/menu.png");
+    background-size: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    color: white;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.menu:hover{
+    transform: rotate(360deg);
+}
+
+@media all and (max-width: 1024px) {
+    .nav{
+        padding-right: 0;
+    }
+    .navList {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+}
+
+/*导航蒙层*/
+.navMask {
+    width: 100%;
+    opacity: 1;
+    height: 195px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.24) 74%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.navDescription {
+    max-width: 1920px;
+    margin: 0 140px;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navTitle {
+    font-size: 56px;
+    font-weight: normal;
+    /* 黑 */
+    color: #262626;
+}
+
+.navTips {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #3D3D3D;
+}
+
+.navTailContainer {
+    padding-bottom: 40px;
+}
+
+.navTail {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: right;
+    /* 黑 */
+    color: #262626;
+}
+
+/*头部导航菜单样式*/
+.tail {
+    margin-left: 50px;
+}
+
+.tail::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    border-bottom: 0;
+    background-color: gold;
+    transform: translateX(-48%);
+    transition: width .25s ease;
+}
+
+.tail:hover::after {
+    width: calc(100% + 16px)
+}
