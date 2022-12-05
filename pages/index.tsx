@@ -14,7 +14,6 @@ function Home() {
   return (
     <Layout>
       <section className={styles.areaOne}>
-        {/*<div className="flex items-start max-lg:justify-between">*/}
         <div className={styles.areaOneDescription}>
           <Image alt="" className="max-sm:mx-auto" src={areaLeft} />
           <div className="max-lg:flex-1">
