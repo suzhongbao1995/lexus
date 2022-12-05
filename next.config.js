@@ -10,10 +10,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: _PROD_ ? './' : '',
-  publicRuntimeConfig: {
-    linkPrefix: _PROD_ ? './' : '',
-  },
+  baseUrl: _PROD_ ? '/lexus' : '',
+  // assetPrefix: _PROD_ ? './' : '',
+  // publicRuntimeConfig: {
+  //   linkPrefix: _PROD_ ? './' : '',
+  // },
 };
 
 module.exports = nextConfig;
