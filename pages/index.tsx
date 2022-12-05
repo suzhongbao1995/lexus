@@ -2,10 +2,10 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Image from 'next/image';
-import areaLeft from '../public/images/area1-left.png';
-import areaRight from '../public/images/area1-right.png';
-import area2 from '../public/images/area2.png';
-import area3 from '../public/images/area3.png';
+import areaLeft from '../public/area1-left.png';
+import areaRight from '../public/area1-right.png';
+import area2 from '../public/area2.png';
+import area3 from '../public/area3.png';
 
 import styles from '../styles/Home.module.css';
 import className from 'classnames';
@@ -30,7 +30,9 @@ function Home() {
             </p>
           </div>
         </div>
-        <Image alt="" className="flex-1" src={areaRight}></Image>
+        <div className={styles.imageContainer}>
+          <Image alt="" className="flex-1" src={areaRight}></Image>
+        </div>
       </section>
       <section className={styles.contentCenter}>
         LEXUS雷克萨斯全球设计大奖不同于其他设计赛事，6位决赛入围选手将接受4位蜚声国际的专业导师亲自指导。备受尊敬的精英导师们来自不同行业背景和专业领域，与决赛入围选手进行一对一的沟通交流，选手们将基于导师们的个性化设计指导，充分激发各自的创意潜能，精心打造并持续完善各自的原型设计作品。LEXUS雷克萨斯全球设计大奖已连续举办九届，共呈现90件独具创意的作品，为139名独立设计师和设计团队提供了展示各自才华和天赋的广阔平台。参赛者均致力于借助设计的力量，构建更美好未来。
@@ -80,14 +82,18 @@ function Home() {
         </div>
       </section>
       <section className={styles.area}>
-        <Image alt="" className="max-lg:hidden lg:block" src={area3} />
+        <div className={styles.imageContainer}>
+          <Image alt="" className="max-lg:hidden lg:block" src={area3} />
+        </div>
         <div className={className(styles.areaIntroduce, styles.ml49)}>
           <h3 className={styles.areaTitle}>预定服务</h3>
           <p className={styles.areaDescription}>
             预订服务中，除了随时预订酒店、机票、餐厅等服务之外，又增加了高尔夫球场预订服务，精选全国覆盖面广的知名高尔夫球场，全方位为您提供至尊服务。
           </p>
         </div>
-        <Image alt="" className="hidden max-lg:block" src={area3} />
+        <div className={styles.imageContainer}>
+          <Image alt="" className="hidden max-lg:block" src={area3} />
+        </div>
       </section>
     </Layout>
   );

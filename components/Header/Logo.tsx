@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import logoLeft from '../../public/images/logo-right1.png';
-import logoRight from '../../public/images/logo-left.png';
+import logoLeft from '../../public/logo-right1.png';
+import logoRight from '../../public/logo-left.png';
 
 import styles from '../../styles/Header.module.css';
 
