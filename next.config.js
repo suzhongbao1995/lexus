@@ -10,9 +10,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: _PROD_ ? '/' : '',
+  assetPrefix: _PROD_ ? './' : '',
   publicRuntimeConfig: {
-    linkPrefix: _PROD_ ? '/' : '',
+    linkPrefix: _PROD_ ? './' : '',
   },
 };
 
