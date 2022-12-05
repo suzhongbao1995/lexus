@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[729],{6202:function(n,e,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/ownerservice",function(){return u(7569)}])},7569:function(n,e,u){"use strict";u.r(e);var _=u(5893);u(7294);let i=()=>(0,_.jsx)("div",{children:"车主服务"});e.default=i}},function(n){n.O(0,[774,888,179],function(){return n(n.s=6202)}),_N_E=n.O()}]);

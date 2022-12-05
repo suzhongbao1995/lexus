@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[599],{2337:function(n,i,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/electrification",function(){return t(1108)}])},1108:function(n,i,t){"use strict";t.r(i);var u=t(5893);t(7294);let e=()=>(0,u.jsx)("div",{children:"电气化"});i.default=e}},function(n){n.O(0,[774,888,179],function(){return n(n.s=2337)}),_N_E=n.O()}]);

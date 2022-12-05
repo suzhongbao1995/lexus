@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[461],{4684:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/brandworld",function(){return _(7462)}])},7462:function(n,u,_){"use strict";_.r(u);var t=_(5893);_(7294);let e=()=>(0,t.jsx)("div",{children:"品牌天地"});u.default=e}},function(n){n.O(0,[774,888,179],function(){return n(n.s=4684)}),_N_E=n.O()}]);
