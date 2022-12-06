@@ -1,5 +1,7 @@
 import React from 'react';
 import className from 'classnames';
+import Image from 'next/image';
+import menuImg from '../../public/menu.png';
 
 import { menus } from './constans';
 
@@ -24,7 +26,9 @@ const Nav = () => {
           </li>
         ))}
       </ul>
-      <span className={className(['max-lg:block'], styles.menu)} />
+      <div className={className(['max-lg:block'], styles.menu)}>
+        <Image alt="" src={menuImg} />
+      </div>
     </div>
   );
 };
